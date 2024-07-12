@@ -6,20 +6,51 @@
 <br/>
 
 ## 목차
-[1. 기능 설명](#1-기능-설명)
+[1. 프로젝트 개요](#1-프로젝트-개요)
 
-[2. 프로젝트 개요](#2-프로젝트-개요)
+[2. 기술 스택](#2-기술-스택)
 
-[3. 기술 스택](#3-기술-스택)
+[3. ERD](#3-erd)
 
-[4. ERD](#4-erd)
+[4. 서비스 아키텍처](#4-서비스-아키텍처)
 
-[5. 서비스 아키텍처](#5-서비스-아키텍처)
+[5. 기능 설명](#5-기능-설명)
 
 [6. 팀원 소개](#6-팀원-소개)
 <br/><br/><br/>
 
-## 1. 기능 설명
+## 1. 프로젝트 개요
+| 항목 | 내용 |
+| --- | --- |
+| 프로젝트 소개 | MZ 맞춤 최애 금융 서비스, 하나원픽 |
+| 개발 인원 | 총 5명 |
+| 개발 기간 | 총 29일 (2024. 06. 13 ~ 2024 07. 11) |
+<br/>
+
+## 2. 기술 스택
+| 기술               | 사용 |
+|------------------| --- |
+| Frontend         | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/WebRTC-333333?style=flat&logo=webrtc&logoColor=white"/> |
+| Backend        | <img src="https://img.shields.io/badge/java-007396?style=flat&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=black"> |
+| Database         | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white"> |
+| Deploy           | <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat&logo=amazonec2&s&logoColor=white"> <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=nginx&s&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&s&logoColor=white"> |
+| Amazon           | <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat&logo=amazonrds&s&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat&logo=amazons3&s&logoColor=white"> |
+| API              | <img src="https://img.shields.io/badge/Naver Cloud-03C75A?style=flat&logo=Naver Cloud&logoColor=black"/> <img src="https://img.shields.io/badge/DeepL-0F2B46?style=flat&logo=deepl&logoColor=white"/> |
+| Cooperative Tool | <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=flat&logo=git&logoColor=white"> |
+| IDE              | <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/intellijidea-000000?style=flat&logo=intellijidea&logoColor=white"> |
+<br/>
+
+## 3. ERD
+<img src="https://github.com/user-attachments/assets/e627a5e8-e69f-4f1b-bcdb-f04663e11898" width="75%"/>
+
+<br/><br/>
+
+## 4. 서비스 아키텍처
+<img src="https://github.com/user-attachments/assets/5afb0c65-3a4d-4490-bd8d-133e3d189707" width="70%"/>
+
+<br/><br/>
+
+## 5. 기능 설명
 ### ➊ 회원가입 및 비대면 계좌 개설
 
 <table>
@@ -159,39 +190,8 @@
 </table>
 <br/>
 
-### [🖥️ 시연 동영상](https://youtu.be/hChAfqNkoO8)
+### [🖥️ 시연 영상](https://youtu.be/hChAfqNkoO8)
 <br/>
-
-## 2. 프로젝트 개요
-| 항목 | 내용 |
-| --- | --- |
-| 프로젝트 소개 | MZ 맞춤 최애 금융 서비스, 하나원픽 |
-| 개발 인원 | 총 5명 |
-| 개발 기간 | 총 29일 (2024. 06. 13 ~ 2024 07. 11) |
-<br/>
-
-## 3. 기술 스택
-| 기술               | 사용 |
-|------------------| --- |
-| Frontend         | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/WebRTC-333333?style=flat&logo=webrtc&logoColor=white"/> |
-| Backend        | <img src="https://img.shields.io/badge/java-007396?style=flat&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=black"> |
-| Database         | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white"> |
-| Deploy           | <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat&logo=amazonec2&s&logoColor=white"> <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=nginx&s&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&s&logoColor=white"> |
-| Amazon           | <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat&logo=amazonrds&s&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat&logo=amazons3&s&logoColor=white"> |
-| API              | <img src="https://img.shields.io/badge/Naver Cloud-03C75A?style=flat&logo=Naver Cloud&logoColor=black"/> <img src="https://img.shields.io/badge/DeepL-0F2B46?style=flat&logo=deepl&logoColor=white"/> |
-| Cooperative Tool | <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=flat&logo=git&logoColor=white"> |
-| IDE              | <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/intellijidea-000000?style=flat&logo=intellijidea&logoColor=white"> |
-<br/>
-
-## 4. ERD
-<img src="https://github.com/user-attachments/assets/e627a5e8-e69f-4f1b-bcdb-f04663e11898" width="75%"/>
-
-<br/><br/>
-
-## 5. 서비스 아키텍처
-<img src="https://github.com/user-attachments/assets/5afb0c65-3a4d-4490-bd8d-133e3d189707" width="70%"/>
-
-<br/><br/>
 
 ## 6. 팀원 소개
 <table>
